@@ -1,0 +1,29 @@
+.ChooseProject {
+   text-align: center;
+   margin: 30px 0;
+}
+.nav_item {
+    margin: 10px 5px;
+    padding: 16px 7px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(
+      90deg,
+      rgb(12, 89, 255) 0%,
+      rgb(9, 86, 252) 100%
+    );
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.nav_item:hover {
+    background: rgb(0, 65, 204);
+    
+}
+
+.nav_item__active {
+    color: cyan;
+    background: rgb(0, 65, 204);
+}
